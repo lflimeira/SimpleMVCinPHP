@@ -11,7 +11,7 @@ class  PersonController
 	//Construct method
 	function __construct()
   	{
-  		//Instance a new object PersonModel that will call Luiz Felipe and is 23 years old.
+  		//Instance a new object PersonModel that will be called Luiz Felipe and is 23 years old.
   		$this->model = new PersonModel('Luiz Felipe', '23');
   		//Instance a new object PersonView.
 		$this->view = new PersonView();
